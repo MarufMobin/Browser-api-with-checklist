@@ -108,15 +108,14 @@ const displayProduct = () =>{
 //     li.innerText = `${cartItem}`;
 //     ul.appendChild(li);
    for( const cartItem of cartItems){
-       console.log(cartItem["name"])
-       console.log(cartItem["price"])
-       console.log(cartItem["quantity"])
-       const li = document.createElement('li');
-        li.classList.add('style-li');
-        
-        li.innerText = `${cartItem["price"]} ${cartItem["quantity"]} ${cartItem["name"]}`;
+       console.log(cartItems["cartItem"])
        
-         ul.appendChild(li);
+  //     const li = document.createElement('li');
+   //     li.classList.add('style-li');
+        
+ //       li.innerText = `${cartItem["price"]} ${cartItem["quantity"]} ${cartItem["name"]}`;
+       
+  //       ul.appendChild(li);
 
    }
 
